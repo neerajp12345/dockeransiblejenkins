@@ -8,7 +8,7 @@ pipeline{
         stage('SCM'){
             steps{
                 git credentialsId: 'github', 
-                    url: 'https://https://github.com/neerajp12345/dockeransiblejenkins'
+                    url: 'https://github.com/neerajp12345/dockeransiblejenkins'
             }
         }
         
